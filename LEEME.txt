@@ -1,0 +1,32 @@
+PROYECTO FINAL - GESTOR DE PROYECTOS Y PRODUCTOS
+=================================================
+
+1) INSTALAR (una sola vez), desde la terminal:
+      pip install streamlit matplotlib
+   Si "pip" no se reconoce, probá:  python -m pip install streamlit matplotlib
+
+2) ARCHIVOS (los vas a completar de a poco, siguiendo las clases):
+      modelos.py          Clases 1-2   Producto y Proyecto
+      almacenamiento.py   Clases 2-3   guardar y cargar en JSON
+      menu.py             Clase 3      versión en terminal (agregar_producto)
+      estadisticas.py     Clase 4      totales, promedios y máximos
+      graficos.py         Clases 4-5   gráficos con matplotlib
+      app.py              Clases 6-7   versión web con Streamlit
+
+3) PROBAR TU TRABAJO:
+      python pruebas_clase1.py     (modelos.py)
+      python pruebas_clase2.py     (almacenamiento.py)
+      python pruebas_clase4.py     (estadisticas.py y graficos.py)
+   Cada prueba dice OK o FALLA. Si falla, mirá el número de TODO que indica.
+
+4) EJECUTAR:
+      python menu.py               (terminal)
+      streamlit run app.py         (página web; si no anda: python -m streamlit run app.py)
+
+5) DATOS DE EJEMPLO (opcional):
+      python ejemplo_datos.py      crea un datos.json con dos proyectos de prueba
+
+REGLAS
+- Los TODO son lo que tenés que escribir. Lo demás ya está hecho: leelo y tratá de entenderlo.
+- No cambies los nombres de las funciones ni de los archivos.
+- Ejecutá siempre desde la carpeta donde están los archivos.
