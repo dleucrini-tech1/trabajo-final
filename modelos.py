@@ -16,8 +16,9 @@ class Producto:
         self.extras = extras
 
     def ganancia(self):
-        # TODO 1: devolver la ganancia total = (precio - costo) * ventas
-        pass
+        return  (self.precio - self.costo)  * self.ventas 
+        
+    
 
     def propiedades(self):
         """Devuelve un diccionario con todos los datos numéricos del producto."""
